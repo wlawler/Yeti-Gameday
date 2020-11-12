@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MarketPlaceComponent } from './market-place/market-place.component';
 import { ProductListComponent } from './market-place/Product-List/product-list/product-list.component';
+import { MarketPlaceModule} from './market-place/market-place.module';
 
 @NgModule({
   declarations: [
@@ -15,8 +16,9 @@ import { ProductListComponent } from './market-place/Product-List/product-list/p
     ProductListComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule,//angular-module 
+    AppRoutingModule, 
+    MarketPlaceModule //custom module
   ],
   providers: [],
   bootstrap: [AppComponent]

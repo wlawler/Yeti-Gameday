@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MarketPlaceComponent } from './market-place.component';
+
 
 
 
@@ -7,6 +9,7 @@ import { CommonModule } from '@angular/common';
   declarations: [],
   imports: [
     CommonModule
-  ]
+  ], 
+  bootstrap: [MarketPlaceComponent]
 })
 export class MarketPlaceModule { }
