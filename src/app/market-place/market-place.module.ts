@@ -1,15 +1,25 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MarketPlaceComponent } from './market-place.component';
+import { ProductListComponent } from './Product-List/product-list/product-list.component';
+
 
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    ProductListComponent, 
+    MarketPlaceComponent
+   
+  ],
   imports: [
     CommonModule
   ], 
-  bootstrap: [MarketPlaceComponent]
+  exports: [
+    ProductListComponent, 
+    MarketPlaceComponent
+  ]
+ 
 })
-export class MarketPlaceModule { }
+export class  MarketPlaceModule { };
