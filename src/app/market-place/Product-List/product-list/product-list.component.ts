@@ -7,7 +7,11 @@ import {products} from '../../products';
   styleUrls: ['./product-list.component.scss']
 })
 export class ProductListComponent implements OnInit {
-products = products 
+products = products
+
+share() {
+  window.alert('The product has been shared');
+}
   constructor() { }
 
   ngOnInit(): void {

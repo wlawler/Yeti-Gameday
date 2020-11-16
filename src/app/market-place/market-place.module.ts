@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MarketPlaceComponent } from './market-place.component';
 import { ProductListComponent } from './Product-List/product-list/product-list.component';
+import { ProductAlertComponent } from './Product-Alert/product-alert/product-alert.component';
 
 
 
@@ -10,7 +11,7 @@ import { ProductListComponent } from './Product-List/product-list/product-list.c
 @NgModule({
   declarations: [
     ProductListComponent, 
-    MarketPlaceComponent
+    MarketPlaceComponent, ProductAlertComponent
    
   ],
   imports: [
