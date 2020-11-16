@@ -11,7 +11,8 @@ import { ProductAlertComponent } from './Product-Alert/product-alert/product-ale
 @NgModule({
   declarations: [
     ProductListComponent, 
-    MarketPlaceComponent, ProductAlertComponent
+    MarketPlaceComponent, 
+    ProductAlertComponent
    
   ],
   imports: [
@@ -19,7 +20,8 @@ import { ProductAlertComponent } from './Product-Alert/product-alert/product-ale
   ], 
   exports: [
     ProductListComponent, 
-    MarketPlaceComponent
+    MarketPlaceComponent, 
+    ProductAlertComponent
   ]
  
 })

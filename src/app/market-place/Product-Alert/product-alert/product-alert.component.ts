@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Input } from '@angular/core'
 
 @Component({
   selector: 'app-product-alert',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product-alert.component.scss']
 })
 export class ProductAlertComponent implements OnInit {
-
+@Input() product; 
   constructor() { }
 
   ngOnInit(): void {
